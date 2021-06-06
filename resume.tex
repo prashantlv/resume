@@ -1,13 +1,27 @@
 
 \documentclass[12pt]{article}
-
 \usepackage[empty]{fullpage}
+\usepackage{fancyhdr}
+\usepackage{marvosym}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Sections formatting
+%\titleformat{\section}{
+  %\vspace{-2pt}\scshape\raggedright\large\bfseries
+%}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1                                 
 
 \begin{document}
 
 \begin{center}
-    {\Huge \schape Prashant Shukla} \\ \vspace{5pt}
+    {\Huge \scshape Prashant Shukla} \\ \vspace{5pt}
     89 Scheme-134, Indore, M.P. 452010 \\ \vspace{3pt}
-    \small  +917415632689
+    \small \faPhone\ +91741-563-2689 ~ \href{mailto:x@gmail.com} \faEnvelope\  \underline{prashantshukla4@acm.org} ~
+
 \end{center}
 \end{document}
